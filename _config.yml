@@ -18,14 +18,18 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Testing in progress ..... Website coming soon.
-
+logo: /assets/img/logo.png
+description: Minimal is a theme for GitHub Pages.
+show_downloads: true
+google_analytics:
+theme: jekyll-theme-minimal  
 #email: testing in progress
 #description: 
 
 url: "https://www.jamestatham.com" # the base hostna#  Google search results) and in your feed.xml site description.
-theme: jekyll-theme-minimal  
+
 #plugins:
-  - jekyll-feed
+# - jekyll-feed
 #twitter_username: 
 #github_username:  
 #twitter_username: jekyllr

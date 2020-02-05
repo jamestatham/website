@@ -17,10 +17,10 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Testing in progress ..... Website coming soon.
-logo: /assets/img/logo.png
-description: Minimal is a theme for GitHub Pages.
-show_downloads: true
+title: Website coming soon.
+logo: 
+description: 
+show_downloads: false
 google_analytics:
 theme: jekyll-theme-minimal  
 #email: testing in progress
@@ -32,10 +32,10 @@ url: "https://www.jamestatham.com" # the base hostna#  Google search results) an
 # - jekyll-feed
 #twitter_username: 
 #github_username:  
-#twitter_username: jekyllr
-##baseurl: "website" # the subpath of your site, e.g. /blog
-#github_username:  jekyll 
-##url: "" # the base hostname & protocol for your site, e.g. http://example.com
+    #twitter_username: jekyllr
+    ##baseurl: "website" # the subpath of your site, e.g. /blog
+    #github_username:  jekyll 
+            ##url: "" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: jekyllrb
 #github_username:  jekyll
 

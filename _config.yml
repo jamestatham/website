@@ -19,7 +19,12 @@
 # in the templates via {{ site.myvariable }}.
 title: Website coming very soon.
 tagline: James Tatham 
-url: "https://www.jamestatham.com" # the base hostna#  Google search results) and in your feed.xml site description.
+url: https://www.jamestatham.com # the base hostna#  Google search results) and in your feed.xml site description.
+paginate: 5
+baseurl: ""
+permalink: pretty
+
+
 
 
 #logo: 

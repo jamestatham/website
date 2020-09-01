@@ -17,18 +17,54 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Website coming soon.
-logo: 
-description: 
-show_downloads: false
-google_analytics:
-theme: jekyll-theme-minimal  
+title: Website coming very soon.
+tagline: James Tatham 
+url: "https://www.jamestatham.com" # the base hostna#  Google search results) and in your feed.xml site description.
+
+
+#logo: 
+#description: 
+#show_downloads: false
+#google_analytics:
+    #theme: jekyll-theme-minimal  
 #email: testing in progress
 #description: 
 
-url: "https://www.jamestatham.com" # the base hostna#  Google search results) and in your feed.xml site description.
 
-#plugins:
+plugins:
+  - jekyll-gist
+  - jekyll-paginate
+  - jekyll-seo-tag
+
+# Optimize Jekyll
+exclude:
+  - .editorconfig
+  - .git
+  - .jekyll-cache
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE.md
+  - README.md
+
+sass:
+  sass_dir: _sass
+  style: :compressed
+
+# Options
+
+# Replace this value and uncomment to enable Google Analytics tracking
+# ga_analytics: UA-000000-0
+
+# Specify the author for blog posts
+#author:
+#  name: Mark Otto
+#  url: https://twitter.com/mdo
+# email: markdotto@gmail.com
+
+# Custom vars
+#version: 3.0.0
+
+
 # - jekyll-feed
 #twitter_username: 
 #github_username:  

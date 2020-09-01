@@ -4,6 +4,10 @@ source "https://rubygems.org"
 gem "jekyll", "~> 3.8.5"
 gem "jekyll-theme-minimal", "~> 0.1.1"
 
+gem "jekyll-gist"
+gem "jekyll-paginate"
+gem "jekyll-seo-tag"
+
 gem "github-pages","~> 204" , group: :jekyll_plugins
 group :jekyll_plugins do
 end

@@ -5,19 +5,27 @@
 .masthead {
   padding-top: var(--spacer);
   padding-bottom: var(--spacer);
+  //padding-left: var(--spacer);
+  padding-right: var(--spacer);
   margin-bottom: var(--spacer-3);
 }
 
 .masthead-title {
   margin-bottom: 0;
+  //position: absolute;
+  //text-align: center;
 
   a {
+    //position: absolute;
+    //text-align: center;
     color: inherit;
     text-decoration: none;
   }
 
   small {
+    //position: absolute;
     font-weight: 400;
+    font-size: 75%;
     opacity: 0.5;
   }
 }
